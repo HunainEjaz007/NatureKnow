@@ -11,8 +11,3 @@ Welcome to **Nature Explorer**, an app designed to help users discover and learn
 - **Favorites**: Save your favorite species for easy access later.
 - **Offline Access**: Download species information for offline use.
 
-## Getting Started
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/nature-explorer.git
