@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:gravity="center_horizontal"
+               android:orientation="vertical"
+               >
+               <ImageView
+                   android:layout_width="300dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/male_peacock_spider"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Maratus volans is a species in the jumping spider family (Salticidae), belonging to the genus Maratus (peacock spiders). These spiders are native to certain areas in Australia and occupy a wide distribution of habitats. They have a specialized visual system that allows them to see the full visible spectrum as well as in the ultraviolet-range; this helps them detect and pursue prey. Males of this species are characterized by their colourful abdomen flaps that are used to attract females during courtship"
+/>
+           </LinearLayout>
+           <com.google.android.material.divider.MaterialDivider
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:layout_marginVertical="20dp"
+               android:background="@color/black"
+               />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:gravity="center_horizontal"
+               android:orientation="vertical"
+               >
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/joro_spider"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Trichonephila clavata, also known as the Joro-spider (ジョロウグモ, Jorō-gumo), is a spider in the Trichonephila genus. Native to East Asia, it is found throughout China, Japan (except Hokkaidō), Korea, and Taiwan, and has been spreading across North America since the 2010s. It rarely bites humans, and its venom is not deadly.
+
+In 2019, this species was moved from the genus Nephila to Trichonephila. Another species from this genus, Trichonephila plumipes, is commonly found in Australia. It also was moved from Nephila to Trichonephila, along with 10 other species"
+                   />
+
+           </LinearLayout>
+       </LinearLayout>
+
+   </ScrollView>
+
+</LinearLayout>
